@@ -1,0 +1,6 @@
+-> Directly hardcoding values in terraform attributes
+-> How to create variables.tf and pass values to attribute like "var.<variablename>"
+-> How to pass in command line while running terraform commands - eg. terraform plan -var="variablename=variablevalue"
+-> How to pass via environment variable -> export TF_VAR_<variablename>=value
+-> How to pass via tfvars file -> create a file called as filename.tfvars and add all the variable and values. This can be created anywhere but you should specifcy while running the code. like terraform plan -var-file=<filename with location>
+-> How to pass via auto.tfvars file -> create a file with the filename.auto.tfvars and add all the variables. It should be within terraform folder
